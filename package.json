@@ -1,0 +1,15 @@
+{
+  "name": "directus-railway-project",
+  "version": "1.0.0",
+  "description": "Directus railway starter",
+  "scripts": {
+    "start": "npx directus start"
+  },
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "dependencies": {
+    "directus": "^9.0.0",
+    "pg": "^8.6.0"
+  }
+}

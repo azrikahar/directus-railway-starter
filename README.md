@@ -16,4 +16,4 @@ This example deploys a self-hosted version of [Directus](https://directus.io). I
 
 # WIP Button
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fazrikahar%2Fdirectus-railway-starter&plugins=postgresql&envs=ADMIN_EMAIL%2CADMIN_PASSWORD&ADMIN_EMAILDesc=The+email+address+of+the+first+user+that%27s+automatically+created&ADMIN_PASSWORDDesc=%09The+password+of+the+first+user+that%27s+automatically+created&ADMIN_EMAILDefault=admin%40example.com)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fazrikahar%2Fdirectus-railway-starter&plugins=postgresql&envs=ADMIN_EMAIL%2CADMIN_PASSWORD%2CKEY%2CSECRET&ADMIN_EMAILDesc=The+email+address+of+the+first+user+that%27s+automatically+created&ADMIN_PASSWORDDesc=The+password+of+the+first+user+that%27s+automatically+created&KEYDesc=Unique+identifier+for+the+project.+Typically+set+as+a+UUID.&SECRETDesc=Secret+string+for+the+project.)
