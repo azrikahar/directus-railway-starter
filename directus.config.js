@@ -10,7 +10,10 @@ module.exports = function (env) {
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
 
-        // Fatabase variables from Railway PostgreSQL Plugin
+        // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
+        PUBLIC_URL: `https://${RAILWAY_STATIC_URL}`,
+
+        // Database variables from Railway PostgreSQL Plugin
         // Reference: https://docs.railway.app/plugins/postgresql
         DB_CLIENT: 'pg',
         DB_HOST: env.PGHOST,
